@@ -4,8 +4,8 @@ def line(number)
   else
     new_line = []
     number.each.with_index(1) do |name, index|
-      new_line.push("The line is currently: #{index}. #{name}")
+      new_line.push("#{index}. #{name}")
     end
-    puts new_line.join(", ")
+    puts "The line is currently: #{new_line.join(", ")}"
   end
 end
