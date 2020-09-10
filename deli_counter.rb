@@ -1,5 +1,5 @@
 def line(number)
-  if number.length = 0
+  if number.length == 0
     puts "The line is currently empty."
   else
     new_line = []
