@@ -6,6 +6,6 @@ def line(number)
     number.each.with_index(1) do |name, index|
       new_line.push("The line is currently: #{index}. #{name}")
     end
-    puts new_line.to_s
+    new_line.to_s
   end
 end
