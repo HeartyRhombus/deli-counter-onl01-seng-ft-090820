@@ -4,5 +4,4 @@ def line(number)
   else
     puts "The line is currently: " + number.index "." + "#{number}"
   end
-
 end
