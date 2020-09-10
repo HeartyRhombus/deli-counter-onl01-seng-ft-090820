@@ -3,7 +3,7 @@ def line(number)
     puts "The line is currently empty."
   else
     new_line = []
-    number.each.with_index(1) do |index, name|
+    number.each.with_index(1) do |name, index|
       new_line.push("The line is currently: #{index}. #{name}")
     end
     puts new_line
