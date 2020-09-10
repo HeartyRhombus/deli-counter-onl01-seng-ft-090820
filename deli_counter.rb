@@ -4,6 +4,7 @@ def line(number)
   else
     number.each.with_index(1) do |index, name|
       puts "The line is currently: #{index}. #{name} "
+    end
   end
 
 end
