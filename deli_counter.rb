@@ -2,6 +2,10 @@ def line(number)
   if number = 0
     puts "The line is currently empty."
   else
-    puts "The line is currently: " + number.index "." + "#{number}"
+    new_line = []
+    number.each.with_index(1) do |index, name|
+      new_line.push("The line is currently: #{index}. #{name}")
+    end
+    puts new_line.to_s
   end
 end
