@@ -11,6 +11,7 @@ def line(number)
 end
 
 def take_a_number(katz_deli, name)
+  katz_deli.push(name)
   new_line = []
   katz_deli.each.with_index(1) do |name, index|
     new_line.push("Welcome, #{name}. You are number #{index} in line.")
