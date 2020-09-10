@@ -8,4 +8,5 @@ def line(number)
     end
     new_line.to_s
   end
+  puts new_line
 end
